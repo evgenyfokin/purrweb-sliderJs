@@ -89,11 +89,11 @@
 
 @media (max-width: 870px) {
   .container {
-    justify-content: flex-start;
+    justify-content: start;
   }
   .slider {
     width: 100vw;
-    height: 65vh;
+    height: 58vh;
   }
   #prev, #next {
     transform: none;
