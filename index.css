@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .container {
   width: 100vw;
   height: 100vh;
@@ -5,7 +11,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-color: #f1f1f1;
+  background-color: #faf8f8;
 }
 .container h1 {
   text-align: center;
@@ -77,6 +83,9 @@
 }
 
 @media (max-width: 870px) {
+  .container {
+    justify-content: flex-start;
+  }
   .slider {
     width: 100vw;
     height: 65vh;
@@ -91,8 +100,9 @@
     flex-wrap: wrap;
   }
   .pagination__dot {
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
+    margin: 0 8px;
   }
 }
 
