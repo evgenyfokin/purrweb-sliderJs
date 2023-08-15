@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>TOP 5 WHOLESOME MEMES:</h1>
+        <div class="slider">
+            <img src="memes/2.png"
+                 class="slider__slide" data-index="0" alt="img">
+            <img src="memes/1.jpg"
+                 class="slider__slide" data-index="1" alt="img">
+            <img src="memes/3.jpg"
+                 class="slider__slide" data-index="3" alt="img">
+            <img src="memes/5.jpg"
+                 class="slider__slide" data-index="2" alt="img">
+            <img src="memes/4.jpg"
+                 class="slider__slide" data-index="4" alt="img">
+            <button id="prev">←</button>
+            <button id="next">→</button>
+        </div>
+        <div class="pagination">
+            <button class="pagination__dot pagination__dot_active" data-slide="0"></button>
+            <button class="pagination__dot" data-slide="1"></button>
+            <button class="pagination__dot" data-slide="3"></button>
+            <button class="pagination__dot" data-slide="4"></button>
+            <button class="pagination__dot" data-slide="5"></button>
+        </div>
+    </div>
+<script defer src="index.js"></script>
+</body>
+</html>
