@@ -78,11 +78,11 @@
 
 @media (max-width: 870px) {
   .container {
-    justify-content: start;
+    justify-content: flex-start;
   }
   .slider {
     width: 100vw;
-    height: 58vh;
+    height: 65vh;
   }
   #prev, #next {
     transform: none;
@@ -94,9 +94,8 @@
     flex-wrap: wrap;
   }
   .pagination__dot {
-    height: 30px;
-    width: 30px;
-    margin: 0 8px;
+    height: 20px;
+    width: 20px;
   }
 }
 
